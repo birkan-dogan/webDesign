@@ -1,7 +1,7 @@
 @import "./base/reset";
 @import "./abstract/mixin", "./abstract/variables";
 @import "./components/footer", "./components/header", "./components/nav",
-  "./components/image";
+  "./components/main", "./components/image";
 @import "./pages/about", "./pages/home", "./pages/services";
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

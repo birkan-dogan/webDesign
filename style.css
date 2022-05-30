@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+.footer {
+  height: 10vh;
+  text-align: center;
+  background-color: #35424a;
+  color: #eee;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  padding: 1rem;
+}
+.footer img {
+  width: 150px;
+  margin-top: 0.5rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -63,6 +78,29 @@ header .header__items ul li a:active {
   background-color: #dd4b25;
   border: none;
   padding: 0.34rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30vh;
+  padding: 1rem;
+}
+.main img {
+  width: 70px;
+}
+.main .ortak {
+  width: 33%;
+  text-align: center;
+  margin: 0.5rem;
+}
+.main .ortak h3 {
+  margin-top: 1rem;
+}
+.main .ortak p {
+  margin-top: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
 }
 
 .home-bgImg {

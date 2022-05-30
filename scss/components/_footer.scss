@@ -1,0 +1,14 @@
+.footer {
+  height: 10vh;
+  text-align: center;
+  background-color: #35424a;
+  color: $headerColor2;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  padding: 1rem;
+  img {
+    width: 150px;
+    margin-top: 0.5rem;
+  }
+}
