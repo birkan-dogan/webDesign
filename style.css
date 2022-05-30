@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #464e63;
+  padding-bottom: 0.5rem;
+}
+header h1 {
+  font-weight: 800;
+  color: #eee;
+  padding: 0.5rem 1rem;
+}
+header span {
+  color: #a7508b;
+}
+header .header__items {
+  display: flex;
+  gap: 1rem;
+  color: #eee;
+  font-weight: 500;
+}
+header .header__items ul {
+  list-style-type: none;
+  padding-right: 1rem;
+}
+header .header__items ul li a {
+  transition: all 1s;
+  color: #eee;
+  text-decoration: none;
+}
+header .header__items ul li a:hover {
+  color: #a7508b;
+}
+header .header__items ul li a:active {
+  color: #a7508b;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #464e63;
+  padding: 1.5rem 1rem;
+  padding-bottom: 3rem;
+  color: #eee;
+  height: 10vh;
+}
+.nav h2 {
+  font-size: 1.2rem;
+}
+.nav .email input {
+  padding: 0.2rem;
+}
+.nav .email button {
+  padding: 0.2rem;
+  width: 5rem;
+  color: #eee;
+  background-color: #dd4b25;
+  border: none;
+  padding: 0.34rem;
+}
+
+.home-bgImg {
+  background-image: url("../../images/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #eee;
+  border-top: 3px solid #a7508b;
+}
+.home-bgImg .title h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.home-bgImg .title p {
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: $bgColor;
+  padding: 1.5rem 1rem;
+  padding-bottom: 3rem;
+  color: $headerColor2;
+  height: 10vh;
+  h2 {
+    font-size: 1.2rem;
+  }
+  .email {
+    input {
+      padding: 0.2rem;
+    }
+    button {
+      padding: 0.2rem;
+      width: 5rem;
+      color: $headerColor2;
+      background-color: $btnColor;
+      border: none;
+      padding: 0.34rem;
+    }
+  }
+}

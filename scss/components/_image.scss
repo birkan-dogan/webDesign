@@ -1,0 +1,22 @@
+.home-bgImg {
+  background-image: url("../../images/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: $headerColor2;
+  border-top: 3px solid $headerColor;
+  .title {
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 900;
+    }
+    p {
+      margin-top: 1.5rem;
+      font-weight: 600;
+    }
+  }
+}

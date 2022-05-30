@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bgColor;
+  padding-bottom: 0.5rem;
+  h1 {
+    font-weight: 800;
+    color: $headerColor2;
+    padding: 0.5rem 1rem;
+  }
+  span {
+    color: $headerColor;
+  }
+  .header__items {
+    display: flex;
+    gap: 1rem;
+    color: $headerColor2;
+    font-weight: 500;
+    ul {
+      list-style-type: none;
+      padding-right: 1rem;
+      li {
+        a {
+          @include transition(1s);
+          color: $headerColor2;
+          text-decoration: none;
+          &:hover {
+            color: $headerColor;
+          }
+          &:active {
+            color: $headerColor;
+          }
+        }
+      }
+    }
+  }
+}
