@@ -140,6 +140,50 @@ header .header__items ul li a:active {
   margin-top: 1rem;
 }
 
+.main__services {
+  display: flex;
+  justify-content: space-between;
+}
+.main__services .services__aside {
+  margin: 1.5rem 0.5rem;
+  line-height: 1.7rem;
+}
+.main__services .services__aside .box {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #e6e6e6;
+}
+.main__services .services__aside .box p {
+  font-family: sans-serif;
+}
+.main__services .services__article {
+  margin: 4rem 7rem;
+  background-color: #464e63;
+  color: #eee;
+  height: 40vh;
+  width: 25vw;
+  padding: 1rem;
+}
+.main__services .services__article form {
+  margin-top: 1rem;
+}
+.main__services .services__article form input {
+  width: 15vw;
+  margin-bottom: 1rem;
+}
+.main__services .services__article form textarea {
+  width: 15vw;
+  height: 5vh;
+}
+.main__services .services__article form button {
+  width: 7vw;
+  padding: 0.5rem;
+  background-color: #dd4b25;
+  color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
 .home-bgImg {
   background-image: url("../../images/showcase.jpg");
   background-position: center;

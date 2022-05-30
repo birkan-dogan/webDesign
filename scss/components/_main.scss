@@ -54,3 +54,46 @@
     }
   }
 }
+.main__services {
+  display: flex;
+  justify-content: space-between;
+  .services__aside {
+    margin: 1.5rem 0.5rem;
+    line-height: 1.7rem;
+    .box {
+      margin: 1rem;
+      padding: 1.5rem;
+      background-color: #e6e6e6;
+      p {
+        font-family: sans-serif;
+      }
+    }
+  }
+  .services__article {
+    margin: 4rem 7rem;
+    background-color: $bgColor;
+    color: $headerColor2;
+    height: 40vh;
+    width: 25vw;
+    padding: 1rem;
+    form {
+      margin-top: 1rem;
+      input {
+        width: 15vw;
+        margin-bottom: 1rem;
+      }
+      textarea {
+        width: 15vw;
+        height: 5vh;
+      }
+      button {
+        width: 7vw;
+        padding: 0.5rem;
+        background-color: $btnColor;
+        color: $headerColor2;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
