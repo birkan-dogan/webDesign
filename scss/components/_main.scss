@@ -3,6 +3,7 @@
   justify-content: space-evenly;
   height: 30vh;
   padding: 1rem;
+  @include transition(1s);
   img {
     width: 70px;
   }
@@ -10,6 +11,10 @@
     width: 33%;
     text-align: center;
     margin: 0.5rem;
+    &:hover {
+      cursor: pointer;
+      box-shadow: 3px 3px $headerColor;
+    }
     h3 {
       margin-top: 1rem;
     }
@@ -17,6 +22,35 @@
       margin-top: 1rem;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-weight: 400;
+    }
+  }
+}
+.about__main {
+  display: flex;
+  padding: 2rem;
+  line-height: 1.5rem;
+  aside {
+    margin-right: 8rem;
+    p {
+      margin: 1rem 0rem;
+      font-family: sans-serif;
+    }
+    .secondP {
+      font-family: sans-serif;
+      background-color: $bgColor;
+      color: $headerColor2;
+      padding: 1rem;
+    }
+  }
+  .article {
+    background-color: $bgColor;
+    color: $headerColor2;
+    height: 30vh;
+    width: 120vw;
+    padding: 1rem;
+    p {
+      font-family: sans-serif;
+      margin-top: 1rem;
     }
   }
 }

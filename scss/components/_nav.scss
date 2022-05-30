@@ -5,16 +5,17 @@
   padding: 1.5rem 1rem;
   padding-bottom: 3rem;
   color: $headerColor2;
-  height: 10vh;
+  height: 7vh;
   h2 {
     font-size: 1.2rem;
   }
   .email {
     input {
-      padding: 0.2rem;
+      padding: 0.3rem;
+      width: 15vw;
     }
     button {
-      padding: 0.2rem;
+      padding: 0.3rem;
       width: 5rem;
       color: $headerColor2;
       background-color: $btnColor;
